@@ -1,0 +1,16 @@
+extends layouts/page
+
+block config 
+  - page.title = "Главная страница"
+
+block styles
+  +style('styles/main.css')
+  +style('styles/index.css')
+
+block scripts
+  +script('scripts/imageLazy.js')
+  +script('scripts/index.js')
+
+block partials 
+  
+  main
